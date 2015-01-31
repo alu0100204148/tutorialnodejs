@@ -38,7 +38,7 @@ console.log('Server running at http://127.0.0.1:1337/');
 
 
 
-![Texto alternativo](captura1.png "captura1")
+![Texto alternativo](http://alu0100204148.github.io/tutorialnodejs/images/captura1.png "captura1")
 
 
 
@@ -48,7 +48,7 @@ console.log('Server running at http://127.0.0.1:1337/');
 
 
 
-![Texto alternativo](captura2.png "captura2")
+![Texto alternativo](http://alu0100204148.github.io/tutorialnodejs/images/captura2.png "captura2")
 
 
 
