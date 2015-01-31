@@ -34,7 +34,7 @@ console.log('Server running at http://127.0.0.1:1337/');
 
 >Posteriormente abriremos una consola de comandos, escribiendo cmd en el campo buscar del menú inicio.
 
->Nos situaremos en la carpeta en la que se encuentra nuestro fichero de ejemplo example.js, y escribiremos <node example.js> ejecutándolo. Debería aparecer el siguiente texto.
+>Nos situaremos en la carpeta en la que se encuentra nuestro fichero de ejemplo example.js, y escribiremos node example.js ejecutándolo. Debería aparecer el siguiente texto.
 
 
 
