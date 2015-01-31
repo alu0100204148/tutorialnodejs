@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Tutorialnodejs by alu0100204148</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Tutorialnodejs</h1>
+        <p>Instalacion node.js</p>
+
+        <p class="view"><a href="https://github.com/alu0100204148/tutorialnodejs">View the Project on GitHub <small>alu0100204148/tutorialnodejs</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/alu0100204148/tutorialnodejs/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/alu0100204148/tutorialnodejs/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/alu0100204148/tutorialnodejs">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="tutorial-nodejs" class="anchor" href="#tutorial-nodejs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tutorial Node.js</h1>
+
+<h2>
+<a id="que-es-nodejs" class="anchor" href="#que-es-nodejs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Que es node.js</h2>
+
+<blockquote>
+<p>Node.js es un entorno de programación en la capa del servidor basado en el lenguaje de programación ECMAScript, asíncrono, con I/O de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. 
+Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.</p>
+</blockquote>
+
+<h2>
+<a id="instalación-en-win7" class="anchor" href="#instalaci%C3%B3n-en-win7" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instalación en Win7</h2>
+
+<blockquote>
+<p>Para instalar en windows simplemente habrá que descargar el programa de la pagina web de <a href="http://nodejs.org">node.js</a>, ejecutaremos el instalador y seguiremos los pasos que nos indica el asistente, indicándole la carpeta en la que queremos que se instale.</p>
+</blockquote>
+
+<h2>
+<a id="funcionamiento" class="anchor" href="#funcionamiento" aria-hidden="true"><span class="octicon octicon-link"></span></a>Funcionamiento</h2>
+
+<blockquote>
+<p>Para comprobar su funcionamiento crearemos un fichero de nombre example.js.</p>
+
+<h3>
+<a id="examplejs" class="anchor" href="#examplejs" aria-hidden="true"><span class="octicon octicon-link"></span></a>example.js</h3>
+</blockquote>
+
+<pre><code>var http = require('http');
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Hello World\n');
+}).listen(1337, '127.0.0.1');
+console.log('Server running at http://127.0.0.1:1337/');
+</code></pre>
+
+<blockquote>
+<p>Para arrancar el node.js, tan solo deberemos buscar el acceso directo en el menú Inicio de windows y ejecutarlo. Aparecerá una ventana, la cual deberá permanecer abierta.</p>
+
+<p>Posteriormente abriremos una consola de comandos, escribiendo cmd en el campo buscar del menú inicio.</p>
+
+<p>Nos situaremos en la carpeta en la que se encuentra nuestro fichero de ejemplo example.js, y escribiremos  ejecutándolo. Debería aparecer el siguiente texto.</p>
+</blockquote>
+
+<p><img src="captura1.png" alt="Texto alternativo" title="captura1"></p>
+
+<blockquote>
+<p>Para comprobar que está funcionando realmente, deberemos abrir un explorador web y escribir en la barra de direcciones <a href="http://127.0.0.0.1:1337">http://127.0.0.0.1:1337</a>, que corresponde al localhost y al puerto que hemos determinado anteriormente en nuestro fichero. Si todo funciona correctamente el servidor deberá respondernos con un "Hello World".</p>
+</blockquote>
+
+<p><img src="captura2.png" alt="Texto alternativo" title="captura2"></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/alu0100204148">alu0100204148</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
